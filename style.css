@@ -1,6 +1,11 @@
 body{
 font-family: 'Rajdhani',sans-serif;
 }
+imgrule.{
+	display: flex;
+	float: right;
+	width: 28rem;
+}
 
  nav a {
   display: inline-block;
