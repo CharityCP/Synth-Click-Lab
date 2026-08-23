@@ -1,7 +1,7 @@
-body{
+ body{
 font-family: 'Rajdhani',sans-serif;
 }
-imgrule.{
+.imgrule{ 
 	display: flex;
 	float: right;
 	width: 28rem;
@@ -9,6 +9,8 @@ imgrule.{
 
  nav a {
   display: inline-block;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   background-color: #B2DFDB;
   padding: 10px 15px;
@@ -19,26 +21,11 @@ imgrule.{
 
 } 
 
-nav a:hover {
+ nav a:hover {
 	color:body{
 font-family: 'Rajdhani',sans-serif;
 }
 
- nav a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #B2DFDB;
-  padding: 10px 15px;
-  font-size: 18px;
-  color: #1d755b;
-  margin: 5px;
-  border-radius: 10px;
-
-} 
-
-nav a:hover {
-	color: #11543b;
-}
 
 h1 {
     color: #b1b530;
@@ -104,4 +91,5 @@ h3 {
 .scoreboard {
 	display:flex;
 	justify-content: center;
+	align-items: center;
 	}
