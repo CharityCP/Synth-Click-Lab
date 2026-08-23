@@ -8,8 +8,11 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
-		
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+		<link rel="stylesheet" href="css/card.css">
+		<link rel="stylesheet" href="css/choice-list.css">
+		<link rel="stylesheet" href="css/style.css">
+
 </head>
 
  <header> 
@@ -40,6 +43,16 @@
 		<header> 
 			<h1 id= "headline-1"> The Nova Codex </h1>
 		</header>
+		
+		 <div class="card">
+			<h3>Which faction do your loyalties belong with?</h3>
+				<div class="choice-list">
+					<button>Elite Society</button>
+					<button>The Unity Nexus</button>
+					<button>The Dominion Collective</button>
+					<button>The Dissenters</button>
+				</div>
+			</div>
 	
 	<div class= "Cards" style="width: 36rem;">
 	
@@ -87,9 +100,11 @@
 		<img src="..." class="imgrule" alt="...">
 	</div>
 	
-		
-	<main>
+		<main>
 				<p> <b>Click the character name, then answer the revealed question! <br>The answers are located in the previous character cards.<br> Please study them before taking quiz<b>!</p>
+				
+				<h1>Codex Tabulatoer</h1>
+    <p class="scoreboard"><b>0<b></p>
 	
 	<button id= "synth-1"> Synth Nova
 	</button>
