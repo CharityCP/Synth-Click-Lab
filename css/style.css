@@ -145,14 +145,28 @@ card4 {
               0 8px 24px rgba(0, 0, 0, 0.08);
 }
 .scoreboard {
-
-	font-size: 100px;
+	
+  
+  font-size: 100px;
   font-weight: bold;
   text-align: center;
   padding: 8px;
 	}
 .border1 {
-	border: red solid 2px;
+	padding: 12px;
+	border: navy solid 2px;
+	margin:50px;
+	background-color:#b1b530;
+	
 	
 }	
+	
+.border2 {
+	padding:12px;
+	border-style: groove;
+	border-color: #A3D9C5;
+	margin:50px;
+	background-color: #2F5244;
+	color:#b1b530;
+}
 	

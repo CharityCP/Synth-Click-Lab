@@ -7,7 +7,7 @@ button1.addEventListener("click", function(){
 
 if (synth1=== correctAnswer1) {
 	console.log("correctAnswer");
-	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="80">You got the answer correct!<p> Reward UNLOCKED!!</p>'
+	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 	results.className= "reward";
 	
 }else{ 
@@ -27,7 +27,7 @@ button2.addEventListener("click", function () {
 	
 if (kim1=== correctAnswer2) {
 console.log("correctAnswer");
-	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="80">You got the answer correct!<p> Reward UNLOCKED!!</p>'
+	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 	results.className= "reward";
 	
 }else{ 
@@ -46,7 +46,7 @@ button3.addEventListener("click", function () {
 
 if (aridyn1=== correctAnswer3) {
 console.log("correctAnswer");
-	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="80">You got the answer correct!<p> Reward UNLOCKED!!</p>'
+	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 	results.className= "reward";
 	
 }else{ 
@@ -65,7 +65,7 @@ button4.addEventListener("click", function (){
 	
 if (kryos1 === correctAnswer4) {
 console.log("correctAnswer");
-	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="80">You got the answer correct!<p> Reward UNLOCKED!!</p>'
+	results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 	results.className= "reward";
 	
 }else{ 
