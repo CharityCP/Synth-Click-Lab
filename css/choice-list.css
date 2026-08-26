@@ -1,10 +1,10 @@
 .choice-list {
- color: #1d755b;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 18px;
-  margin:24px;
-  background-color: b1b530;
-  border-radius: 24px;
+	color: #1d755b;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 18px;
+	margin:24px;
+	background-color: b1b530;
+	border-radius: 24px;
 }

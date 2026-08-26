@@ -1,5 +1,5 @@
 body{
-font-family: 'Rajdhani',sans-serif;
+	font-family: 'Rajdhani',sans-serif;
 }
 imgrule.{
 	display: flex;
@@ -7,32 +7,32 @@ imgrule.{
 	width: 28rem;
 }
 
- nav a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #B2DFDB;
-  padding: 10px 15px;
-  font-size: 18px;
-  color: #1d755b;
-  margin: 5px;
-  border-radius: 10px;
-
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #B2DFDB;
+	padding: 10px 15px;
+	font-size: 18px;
+	color: #1d755b;
+	margin: 5px;
+	border-radius: 10px;
+	
 } 
 
 nav a:hover {
 	color:#1d755b;
 }
 
- nav a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #B2DFDB;
-  padding: 10px 15px;
-  font-size: 18px;
-  color: #1d755b;
-  margin: 5px;
-  border-radius: 10px;
-
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #B2DFDB;
+	padding: 10px 15px;
+	font-size: 18px;
+	color: #1d755b;
+	margin: 5px;
+	border-radius: 10px;
+	
 } 
 
 nav a:hover {
@@ -50,8 +50,8 @@ h1 {
 	text-shadow: 2px 2px 6px #B2DFDB;
 }
 article {
-  background-color: #A3D9C5;
-  text-align: center;
+	background-color: #A3D9C5;
+	text-align: center;
 }
 
 
@@ -59,12 +59,12 @@ article {
 #field-notes span,
 #field-notes strong,
 #field-notes a {
-  outline: 2px dashed darkorange;
+	outline: 2px dashed darkorange;
 }
 
 #field-notes div,
 #field-notes p {
-  outline: 2px solid seagreen;
+	outline: 2px solid seagreen;
 }
 
 h1 {
@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 { 
- color: #b1b530;
+	color: #b1b530;
 	background-color: #1d755b;
 	font-family: 'Orbitron',sans-serif;
 	font-style: italic;
@@ -90,7 +90,7 @@ h2 {
 }
 
 h3 { 
- color: #b1b530;
+	color: #b1b530;
 	background-color: #1d755b;
 	font-family: 'Orbitron',sans-serif;
 	font-style: italic;
@@ -105,54 +105,54 @@ cards. {
 	justify-content:columns;
 }
 card1 {
-  
-  background-color: #2F5244;
-  color: #373c44;
-  border: 1px solid #e7eaf0;
-  border-radius: 20px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
-              0 8px 24px rgba(0, 0, 0, 0.08);
+	
+	background-color: #2F5244;
+	color: #373c44;
+	border: 1px solid #e7eaf0;
+	border-radius: 20px;
+	padding: 1.25rem 1.5rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
+	0 8px 24px rgba(0, 0, 0, 0.08);
 }
 card2 {
-  background-color: #2F5244;
-  color: #373c44;
-  border: 1px solid #e7eaf0;
-  border-radius: 20px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
-              0 8px 24px rgba(0, 0, 0, 0.08);
+	background-color: #2F5244;
+	color: #373c44;
+	border: 1px solid #e7eaf0;
+	border-radius: 20px;
+	padding: 1.25rem 1.5rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
+	0 8px 24px rgba(0, 0, 0, 0.08);
 }
 card3 {
-  background-color: #2F5244;
-  color: #373c44;
-  border: 1px solid #e7eaf0;
-  border-radius: 20px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
-              0 8px 24px rgba(0, 0, 0, 0.08);
+	background-color: #2F5244;
+	color: #373c44;
+	border: 1px solid #e7eaf0;
+	border-radius: 20px;
+	padding: 1.25rem 1.5rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
+	0 8px 24px rgba(0, 0, 0, 0.08);
 }
 card4 {
-  background-color: #2F5244;
-  color: #373c44;
-  border: 1px solid #e7eaf0;
-  border-radius: 20px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
-              0 8px 24px rgba(0, 0, 0, 0.08);
+	background-color: #2F5244;
+	color: #373c44;
+	border: 1px solid #e7eaf0;
+	border-radius: 20px;
+	padding: 1.25rem 1.5rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
+	0 8px 24px rgba(0, 0, 0, 0.08);
 }
 .scoreboard {
 	
-  
-  font-size: 100px;
-  font-weight: bold;
-  text-align: center;
-  padding: 8px;
-	}
+	
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	padding: 8px;
+}
 .border1 {
 	padding: 12px;
 	border: navy solid 2px;
@@ -161,7 +161,7 @@ card4 {
 	
 	
 }	
-	
+
 .border2 {
 	padding:12px;
 	border-style: groove;
@@ -170,4 +170,3 @@ card4 {
 	background-color: #2F5244;
 	color:#b1b530;
 }
-	
