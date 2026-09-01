@@ -40,11 +40,15 @@ button2.addEventListener("click", function () {
 		console.log("correctAnswer");
 		results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 		results.className= "reward";
+		score = score +3;
+		scoreBoard1.innerHTML = score;
 		
 		}else{ 
 		console.log("not correctAnswer");
 		results.innerHTML='<h2> OOPS Try Again!</h2><p> Correct answer is: Betrayed by his father</p><p>Keep Practicing and play again!</p>'
 		results.className= "OOPS";
+		score = score -1;
+		scoreBoard1.innerHTML = score;
 	}
 });
 
@@ -59,11 +63,15 @@ button3.addEventListener("click", function () {
 		console.log("correctAnswer");
 		results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 		results.className= "reward";
+		score = score +3;
+		scoreBoard1.innerHTML = score;
 		
 		}else{ 
 		console.log("not correctAnswer");
 		results.innerHTML='<h2> OOPS Try Again!</h2><p> Correct answer is: Self Preservation</p><p>Keep Practicing and play again!</p>'
 		results.className= "OOPS";
+		score = score -1;
+		scoreBoard1.innerHTML = score;
 	}
 });	
 
@@ -78,10 +86,14 @@ button4.addEventListener("click", function (){
 		console.log("correctAnswer");
 		results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 		results.className= "reward";
+		score = score +3;
+		scoreBoard1.innerHTML = score;
 		
 		}else{ 
 		console.log("not correctAnswer");
 		results.innerHTML='<h2> OOPS Try Again!</h2><p> Correct answer is: Humanity and their ways</p><p>Keep Practicing and play again!</p>'
 		results.className= "OOPS";
+		score = score -1;
+		scoreBoard1.innerHTML = score;
 	}
 });		
