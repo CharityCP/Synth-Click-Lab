@@ -2,7 +2,7 @@ background-color: var(--pico-card-background-color, #ffffff);
 color: var(--pico-color, #373c44);
 border: 1px solid var(--pico-muted-border-color, #e7eaf0);
 
-.cards {
+.card-grid {
 	display:flex;
 	justify-content:columns: center;
 	align-items: center;
