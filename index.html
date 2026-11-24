@@ -9,9 +9,10 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
 		
-		<link rel="stylesheet" href="css/card.css">
+		<!--<link rel="stylesheet" href="css/card.css">
 		<link rel="stylesheet" href="css/choice-list.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css"> -->
+		<link rel="stylesheet" href="css/redesign.css">
 		
 	</head>
 	
@@ -108,7 +109,7 @@
 										
 									</div>
 									
-									<main>
+									<main class="quiz-section">
 										<p> <b>Enjoy the character cards, get acquainted with them! <br>The answers are located within the  character cards.<br> Please study them before taking quiz</b>!</p>
 										
 										<h1>Codex Tabulator</h1>
@@ -117,15 +118,17 @@
 											<div class="border2">
 												<p class="scoreboard" id="scoreBoard1">0</p>
 											</div>
-										</div>
+											</div>
+										<div id="results"
+										aria-live="polite"></div>
+										<div class="quiz-grid">	
+										<div class="quiz-item">
 										
-										<div id="results"></div>
-									</div>
 									<button id= "synth-1"> Synth Nova
 									</button>
 									
 									<label>
-										<b>Synth saving UNITY<b>
+										<b>Synth saving UNITY</b>
 											<input id="synthInputBox"
 											name="synth"
 											type="text"
@@ -133,6 +136,9 @@
 											placeholder="What faction is Synth Nova the leader of?...">
 										</label>
 										<p><b> Select from the following: <br>The Dominion Collective<br> Elite Society<br> The Unity Nexus</b></p>
+										</div>
+										
+									<div class="quiz-item">	
 										<button id= "kim-1"> Kim Jae-Hyuk
 										</button>
 										
@@ -147,6 +153,9 @@
 										
 										<p><b> Select from the following: <br>Betrayed by his father<br> His mother passed away <br> He wanted to be a bad boy</b></p>
 										
+										</div>
+
+										<div class="quiz-item">
 										<button id= "aridyn-1">Aridyn
 											
 										</button>
@@ -162,6 +171,10 @@
 										</label>
 										
 										<p><b> Select from the following: <br>Support what right<br> Self Preservation<br> Evil never prevails</b></p>
+										
+										</div>
+
+										<div class="quiz-item">
 										<button id= "kryos-1">Kryos
 										</button>
 										
@@ -176,7 +189,8 @@
 										</label>
 										
 										<p><b> Select from the following: <br>Humanity and their ways<br> The Dissenters<br> The Unity Nexus</b></p>
-										
+									</div>
+									</div>
 										</main>
 										
 										<script src="script.js"> </script>
