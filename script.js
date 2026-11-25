@@ -2,17 +2,15 @@ let button1= document.getElementById("synth-1");
 let correctAnswer1= "The Unity Nexus";
 let scoreBoard1 = document.getElementById("scoreBoard1");
 let score = 0;
+const results=
+document.getElementById("results");
 
 button1.addEventListener("click", function(){
 	let synth1= document.getElementById("synthInputBox").value;
 	
-	
-	
-	
-	
 	if (synth1=== correctAnswer1) {
 		console.log("correctAnswer");
-		results.innerHTML='<img src="award1.jpg" alt="reward emblem" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
+		results.innerHTML='<img src="award1.jpg" alt="reward emblem" class="reward-img" width="100">You got the answer correct!<p> Reward UNLOCKED!!</p>'
 		results.className= "reward";
 		score = score +3;
 		scoreBoard1.innerHTML = score;
